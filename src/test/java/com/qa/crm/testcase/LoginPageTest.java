@@ -20,7 +20,7 @@ public class LoginPageTest extends TestBase {
     @BeforeMethod
     public void setup() {
         initialization();
-        loginPage = new LoginPage(driver);
+        loginPage = new LoginPage();
     }
 
     @Test(priority=1)

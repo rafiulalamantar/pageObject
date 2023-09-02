@@ -26,11 +26,11 @@ public class LoginPage {
     @FindBy(xpath="//img[contains(@class,'img-responsive')]")
     WebElement crmLogo;
 
-    public LoginPage(WebDriver driver){
-        PageFactory.initElements(TestBase.driver, this);
-        TestBase.driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
+    public LoginPage(){
+        PageFactory.initElements(driver, this);
 
     }
+
 
     /* Actions are Here */
 
