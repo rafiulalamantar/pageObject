@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="E:/Automation/pageObject(failed)">
+    <classes>
+      <class name="com.qa.crm.testcase.HomePageTest">
+        <methods>
+          <include name="verifyTitleTest"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.qa.crm.testcase.HomePageTest -->
+    </classes>
+  </test> <!-- E:/Automation/pageObject(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
